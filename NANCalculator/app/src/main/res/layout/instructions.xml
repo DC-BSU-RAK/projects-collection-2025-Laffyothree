@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="26dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- title text for the instructions -->
+    <TextView
+        android:id="@+id/instructionTitle"
+        android:text="@string/ins_title"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- detailed instruction text -->
+    <TextView
+        android:id="@+id/instructionText"
+        android:text="@string/full_instruction_text"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

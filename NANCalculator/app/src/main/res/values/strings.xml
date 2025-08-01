@@ -1,0 +1,40 @@
+<resources>
+    <!-- app name shown on device -->
+    <string name="app_name">NAN Calculator</string>
+
+    <!-- tagline shown on splash screen -->
+    <string name="splash_tagline">all about smelling good…</string>
+
+    <!-- content description for app logo image -->
+    <string name="logo_description">App logo</string>
+
+    <!-- labels for time of day options -->
+    <string name="day_time">Day time</string>
+    <string name="night_time">Night time</string>
+
+    <!-- plus sign symbol -->
+    <string name="plus_sign">+</string>
+
+    <!-- labels for seasons -->
+    <string name="summer_time">Summer</string>
+    <string name="winter_time">Winter</string>
+
+    <!-- content description for result image -->
+    <string name="result_image">Result Image</string>
+
+    <!-- button label -->
+    <string name="search_perfume">Search Perfume</string>
+
+    <!-- content description for help button -->
+    <string name="desc_help_button">Show instructions</string>
+
+    <!-- title text for instructions -->
+    <string name="ins_title">HOW TO USE SCENT APP?</string>
+
+    <!-- full instruction text shown in instructions dialog -->
+    <string name="full_instruction_text">
+        Step 1: Indicate whether your fragrance is for daytime or evening wear.\n\n
+        Step 2: Select the current weather to personalize your experience.\n\n
+        Step 3: Tap [Search Perfume] to discover your perfect scent match.
+    </string>
+</resources>
