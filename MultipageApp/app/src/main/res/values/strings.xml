@@ -1,0 +1,39 @@
+<resources>
+    <!-- app name shown on device -->
+    <string name="app_name">MultipageApp</string>
+
+    <!-- tagline shown on splash screen -->
+    <string name="splash_tagline">your fragrance archives…</string>
+
+    <!-- content description for app logo image -->
+    <string name="logo_description">App logo</string>
+
+    <!-- contents for user input -->
+    <string name="username">USERNAME</string>
+    <string name="please_input_username">Please input username…</string>
+    <string name="season">SEASON</string>
+    <string name="please_input_season">Please input season…</string>
+
+    <!-- submit button -->
+    <string name="submit">Submit</string>
+
+    <!-- content description for another tab's logo -->
+    <string name="summer_logo">Summer logo</string>
+    <string name="winter_logo">Winter logo</string>
+
+    <!-- text title for him and her label - summer -->
+    <string name="shim_title">for him,</string>
+    <string name="sher_title">for her,</string>
+
+    <!-- empty content description for active buttons - summer -->
+    <string name="image_button_desc1">open perf. 1</string>
+    <string name="image_button_desc2">open perf. 2</string>
+    <string name="image_button_desc4">open perf. 4</string>
+    <string name="image_button_desc5">open perf. 5</string>
+
+    <!-- empty content description for active buttons - winter -->
+    <string name="image_button_wdesc1">open perf. 1</string>
+    <string name="image_button_wdesc2">open perf. 2</string>
+    <string name="image_button_wdesc4">open perf. 4</string>
+    <string name="image_button_wdesc5">open perf. 5</string>
+</resources>

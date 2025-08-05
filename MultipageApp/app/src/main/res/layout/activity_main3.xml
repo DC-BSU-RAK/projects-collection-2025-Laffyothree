@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- this is the main layout for the Winter fragrance page -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3Winter">
+
+    <!-- top logo image (winter-themed) -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="153dp"
+        android:layout_height="89dp"
+        android:src="@drawable/winter"
+        android:contentDescription="@string/winter_logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038" />
+
+    <!-- section title for women’s winter fragrances -->
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/shim_title"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.226" />
+
+    <!-- first fragrance button (for women) -->
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="112dp"
+        android:layout_height="132dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:contentDescription="@string/image_button_wdesc1"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/wfw_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348" />
+
+    <!-- second fragrance button (for women) -->
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="112dp"
+        android:layout_height="132dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:contentDescription="@string/image_button_wdesc2"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/wfw_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348" />
+
+    <!-- empty slot for future fragrance (optional) -->
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="112dp"
+        android:layout_height="132dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:contentDescription="@null"
+        android:importantForAccessibility="no"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/empty"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.909"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348" />
+
+    <!-- section title for men’s winter fragrances -->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/sher_title"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.57" />
+
+    <!-- first fragrance button (for men) -->
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="112dp"
+        android:layout_height="132dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:contentDescription="@string/image_button_wdesc4"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/mfw_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.757" />
+
+    <!-- second fragrance button (for men) -->
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="112dp"
+        android:layout_height="132dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:contentDescription="@string/image_button_wdesc5"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/mfw_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.757" />
+
+    <!-- another empty slot for later use -->
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="112dp"
+        android:layout_height="132dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:contentDescription="@null"
+        android:importantForAccessibility="no"
+        android:padding="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/empty"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.909"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.757" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
